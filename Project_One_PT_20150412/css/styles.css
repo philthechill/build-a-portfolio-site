@@ -1,0 +1,56 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 400;
+}
+
+.img-center {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.text-grey-thin {
+	color: #BCBBBB;
+	font-weight: 300;
+}
+
+.text-grey {
+	color: #BCBBBB;
+}
+
+.hr-style {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+.title-big {
+	font-size: 55px;
+}
+
+.title-logo {
+	margin-top: 30px;
+}
+
+footer {
+    margin: auto;
+    width: 100%;
+  	text-align: center;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  color: red;
+	}
+
+@media screen and (max-width: 800px) {
+	.header-block {
+		text-align: center;
+	}
+	.logo-block {
+		margin-left: auto;
+    	margin-right: auto;
+	}
+}
+		
